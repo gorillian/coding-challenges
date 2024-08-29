@@ -1,0 +1,46 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  // background-image: url("../images/shayne\ copy.jpg");
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  height: 450px;
+  padding: 15px 10px;
+  .left-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    width: 30%;
+    border-radius: 5px;
+    div {
+      background-color: rgb(243, 243, 243);
+    }
+    .options-wrapper {
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 5px;
+      border-radius: 5px;
+    }
+  }
+  .right-header {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+  }
+  .option {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px 5px;
+    &:hover {
+      background-color: #91e481;
+    }
+  }
+}
